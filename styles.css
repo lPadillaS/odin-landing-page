@@ -54,7 +54,7 @@ button{
 #image-div{
     background-color: #e5e7eb70;
     width: 48%;
-    height: 270px;
+    height: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +67,7 @@ img{
     color: #e5e7eb;
     margin:5px;
 }
-#flex-container{
+.flex-container{
     display: flex;
     flex-direction: column;
     width: 48%;
@@ -79,8 +79,9 @@ main{
     align-items: center;
 }
 #info{
-    width:55%;
+    width:75%;
     text-align: center;
+    padding:1%
 }
 #info h2{
     font-size:36px;
@@ -106,4 +107,40 @@ main{
     width: 100%;
     border:4px solid #3882f6;
     border-radius: 15px;
+}
+#quote-Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding:8%;
+}
+#quote-Div p{
+    text-align: right;
+    font-size: 24px;
+    color: #1f2937;
+    margin:0px;
+}
+#quote-Div #quote{
+    text-align: left;
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+    font-style: italic;
+}
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+#note{
+    background-color: #3882f6;
+    height: 45%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+
 }
