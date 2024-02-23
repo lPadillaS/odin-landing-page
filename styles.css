@@ -81,7 +81,7 @@ main{
 #info{
     width:75%;
     text-align: center;
-    padding:1%
+    margin-bottom: 5%;
 }
 #info h2{
     font-size:36px;
@@ -137,7 +137,7 @@ footer{
 #note{
     background-color: #3882f6;
     height: 30%;
-    width: 75%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,7 +149,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 90%;
 
 }
 #note button{
